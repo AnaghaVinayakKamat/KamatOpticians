@@ -36,15 +36,20 @@
     .nav-height-resp{
         height: 200px;
     }
-/*     .carousel-caption{
+    .img-fluid{
+        height: 200px;
+    }
+    .carousel-caption{
         top: 10px;
         display: block;
         animation: none;
     }
     .carousel-caption h1{
-        font-size: 24px;
-        animation: none;
-    } */
+        font-size: 18px;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
     .box{
         position: relative;
         top: 30px;
