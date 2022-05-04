@@ -1,0 +1,108 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        flex-direction:column;
+        align-items: center;
+        padding: 5px;
+    }
+    .nav-left{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-center{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .nav-right{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-submit{
+        width: 150px;
+        padding: 0;
+        margin: 0;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 15px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .nav-height-resp{
+        height: 200px;
+    }
+/*     .carousel-caption{
+        top: 10px;
+        display: block;
+        animation: none;
+    }
+    .carousel-caption h1{
+        font-size: 24px;
+        animation: none;
+    } */
+    .box{
+        position: relative;
+        top: 30px;
+        left: 40%;
+        height: 70px;
+        width: 70px;
+    }
+    .box span{
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(100px);
+    }
+    .box span:hover img{
+        transform: translateY(-10px) scale(1.2);
+        cursor: pointer;
+    }
+    .secright{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 20px 2px;
+    }
+    .secleft{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 20px 2px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .logos{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .container-about{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .img-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .img-section img{
+        width: 80%;
+    }
+    .title{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+}
